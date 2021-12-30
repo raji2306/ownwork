@@ -12,7 +12,7 @@ public class mavtest {
 	public void testlogin()
 	{
 		sourcecodey result = new sourcecodey();
-		Assert.assertEquals(0, result.userLogin("abc", "nothing"));
+		Assert.assertEquals(0, result.userLogin("abc", "nothing2"));
 	}
 	
 	@Test
