@@ -20,7 +20,7 @@ public class mavtest {
 	public void testlogin2()
 	{
 		sourcecodey result = new sourcecodey();
-		Assert.assertEquals(1, result.userLogin("abc", "abc@123"));
+		Assert.assertEquals(1, result.userLogin("abc", "abc@1234"));
 	}
 
 }
